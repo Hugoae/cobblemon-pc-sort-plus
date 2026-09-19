@@ -109,7 +109,8 @@ processResources {
             neoforge_loader_version_range   : neoforge_loader_version_range,
             kotlin_for_forge_version        : kotlin_for_forge_version,
             credits                         : credits,
-            java_version                    : java_version
+            java_version                    : java_version,
+            cobblemon_min_version           : cobblemon_min_version
     ]
     filesMatching(['pack.mcmeta', 'fabric.mod.json', 'META-INF/neoforge.mods.toml', '*.mixins.json']) {
         expand expandProps

@@ -4,7 +4,7 @@ Tag Cobblemon PC boxes, then sort. A box tagged Water and High IV only takes Wat
 
 NeoForge and Fabric port of XAI's Fabric Cobble PC Sort. The original stays on `cobblepcsort`. This project is `cobblemonpcsortplus` (CurseForge / Modrinth slug: `cobblemon-pc-sort-plus`).
 
-Minecraft **1.21.1**, Cobblemon **1.8.1**. Use the JAR for your loader. Client and server both need the mod.
+Minecraft **1.21.1**, Cobblemon **1.8.0+**. Use the JAR for your loader. Client and server both need the mod.
 
 - **NeoForge 21.1.250** — Kotlin for Forge 5.3+
 - **Fabric** — Fabric API + fabric-language-kotlin
@@ -62,8 +62,8 @@ One level: Pokémon go back to the slots they had before the last sort. The snap
 
 JARs:
 
-- `neoforge/build/libs/cobblemonpcsortplus-neoforge-1.21.1-1.0.0.jar`
-- `fabric/build/libs/cobblemonpcsortplus-fabric-1.21.1-1.0.0.jar`
+- `neoforge/build/libs/cobblemonpcsortplus-neoforge-1.21.1-1.0.1.jar`
+- `fabric/build/libs/cobblemonpcsortplus-fabric-1.21.1-1.0.1.jar`
 
 Regenerating the tag panel texture: `python tools/generate_tag_panel.py` (requires Pillow).
 

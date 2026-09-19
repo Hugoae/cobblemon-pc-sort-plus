@@ -28,6 +28,6 @@
     "fabric-language-kotlin": "*",
     "minecraft": "${minecraft_version}",
     "java": ">=${java_version}",
-    "cobblemon": ">=1.8.1"
+    "cobblemon": ">=${cobblemon_min_version}"
   }
 }
