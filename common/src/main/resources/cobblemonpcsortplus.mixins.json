@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8.5",
+  "package": "net.xhugo.cobblemonpcsortplus.mixin",
+  "refmap": "${mod_id}.refmap.json",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "PCGUIMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

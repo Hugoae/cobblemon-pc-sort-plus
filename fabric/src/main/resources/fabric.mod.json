@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "${mod_id}",
+  "version": "${version}",
+  "name": "${mod_name}",
+  "description": "${description}",
+  "authors": [
+    "${mod_author}"
+  ],
+  "credits": "${credits}",
+  "license": "${license}",
+  "icon": "logo.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.xhugo.cobblemonpcsortplus.fabric.CobblemonPCSortPlusFabric"
+    ],
+    "client": [
+      "net.xhugo.cobblemonpcsortplus.fabric.CobblemonPCSortPlusFabricClient"
+    ]
+  },
+  "mixins": [
+    "${mod_id}.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${fabric_loader_version}",
+    "fabric-api": "*",
+    "fabric-language-kotlin": "*",
+    "minecraft": "${minecraft_version}",
+    "java": ">=${java_version}",
+    "cobblemon": ">=1.8.1"
+  }
+}
