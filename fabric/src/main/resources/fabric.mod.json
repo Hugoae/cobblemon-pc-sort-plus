@@ -7,7 +7,6 @@
   "authors": [
     "${mod_author}"
   ],
-  "credits": "${credits}",
   "license": "${license}",
   "icon": "logo.png",
   "environment": "*",

@@ -62,8 +62,8 @@ One level: Pokémon go back to the slots they had before the last sort. The snap
 
 JARs:
 
-- `neoforge/build/libs/cobblemonpcsortplus-neoforge-1.21.1-1.0.1.jar`
-- `fabric/build/libs/cobblemonpcsortplus-fabric-1.21.1-1.0.1.jar`
+- `neoforge/build/libs/cobblemonpcsortplus-neoforge-1.21.1-1.0.2.jar`
+- `fabric/build/libs/cobblemonpcsortplus-fabric-1.21.1-1.0.2.jar`
 
 Regenerating the tag panel texture: `python tools/generate_tag_panel.py` (requires Pillow).
 
